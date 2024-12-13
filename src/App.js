@@ -7,7 +7,7 @@ function App() {
   const apiCheck=()=>{
     axios({
       method:'POST',
-      url:'http://localhost:8080',
+      url:'http://localhost:8080/api/v1/user/register',
       data:({user})
     }).then((res)=>{
       console.log(res)      
